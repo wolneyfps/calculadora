@@ -2,24 +2,34 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Exemplo JavaScript 02</title>
+  <title>Calculadora</title>
   <link rel="stylesheet" href="style.css">
-  <script src="js.js"></script>
+  <script src="js.js" defer></script>
 </head>
 <body>
 
-<h2>Primeiros passos JavaScript 02</h2>
+  <div class="calculadora">
+    <h2>Calculadora 🧮 </h2>
 
-<p>Valor A: <input type="text" id="valor01"></p>
-<p>Valor B: <input type="text" id="valor02"></p>
+    <div class="inputs">
+      <input type="number" id="valor01" placeholder="Valor A">
+      <input type="number" id="valor02" placeholder="Valor B">
+    </div>
 
-<button type="button" onclick="soma()">Somar</button>
-<button type="button" onclick="subtrair()">Subtrair</button>
-<button type="button" onclick="multiplicar()">Multiplicar</button>
-<button type="button" onclick="dividir()">Dividir</button>
-<button type="button" onclick="potenciar()">Potenciação</button>
+    <div class="botoes">
+      <button onclick="soma()">+</button>
+      <button onclick="subtrair()">−</button>
+      <button onclick="multiplicar()">×</button>
+      <button onclick="dividir()">÷</button>
+      <button onclick="potenciar()">^</button>
+      <button onclick="limpar()">C</button>
+    </div>
 
-<p>Resultado: <label id="demo"></label></p>
+    <div class="resultado">
+      Resultado: <span id="demo"></span>
+    </div>
+  </div>
 
 </body>
 </html>
+
