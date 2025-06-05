@@ -1,0 +1,70 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo do corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Container principal */
+  .container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* Título */
+  h2 {
+    margin-bottom: 25px;
+    color: #1e7f94;
+  }
+  
+  /* Estilo dos inputs */
+  input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  /* Botões */
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #1e7f94;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #145865;
+  }
+  
+  /* Resultado */
+  #demo {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e7f94;
+  }
+  
